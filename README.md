@@ -1,2 +1,2 @@
 # scpa_paper_scripts
-scripts to replicate main figures of the paper
+R scripts to replicate all main figures of the paper
