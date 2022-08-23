@@ -372,7 +372,7 @@ data.frame(scr = c(19, 6, 8, 19, 18),
         axis.text.x = element_text(size = 10)) +
   ylab("% Viability")
 
-ggsave(filename = "~/My Drive/nih_data/data/lab_data/18130421 IFN CRISPR/plot.png",
+ggsave(filename = "ifn_viability_human.png",
        height = 3.5, width = 2.2, device = "png", dpi = 600)
 
 
@@ -399,7 +399,7 @@ ggplot(df, aes(treatment, live_mean, group = genotype, color = genotype)) +
         axis.title.x = element_blank(),
         legend.position = "none")
 
-ggsave("~/My Drive/nih_data/data/lab_data/41081221 IFNAR ko spleens/live_dead.png",
+ggsave("ifn_viability_mouse.png",
        height = 3.5, width = 2.5, units = "in", device = "png", dpi = 600)
 
 
