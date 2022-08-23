@@ -309,7 +309,7 @@ ggplot(facloc, aes(de, -log10(pval))) +
   theme(panel.background = element_blank(),
         panel.border = element_rect(fill = NA),
         legend.position = "none")
-ggsave("~/Desktop/splat_test/facloc_results.png", device = "png", dpi = 600,
+ggsave("facloc_results.png", device = "png", dpi = 600,
        width = 5, height = 4.5, units = "in")
 
 ggplot(deprob, aes(de, -log10(pval))) +
@@ -321,7 +321,7 @@ ggplot(deprob, aes(de, -log10(pval))) +
   theme(panel.background = element_blank(),
         panel.border = element_rect(fill = NA),
         legend.position = "none")
-ggsave("~/Desktop/splat_test/deprob_results.png", device = "png", dpi = 600,
+ggsave("deprob_results.png", device = "png", dpi = 600,
        width = 5, height = 4.5, units = "in")
 
 
