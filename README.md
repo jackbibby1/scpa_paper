@@ -1,5 +1,8 @@
 # Systematic Single Cell Pathway Analysis (SCPA) to characterize early T cell activation
-Repo contains all the R scripts to replicate figures of the paper, and bulk RNA-seq analysis of Ifnar1-/- mice.
+
+This repo is associated with our [SCPA paper published in Cell Reports](https://www.sciencedirect.com/science/article/pii/S2211124722015716?via%3Dihub)
+
+The repo contains all the R scripts to replicate figures of the paper, and bulk RNA-seq analysis of Ifnar1-/- mice.
 
 Raw and processed sequencing data for both bulk and scRNA-seq can be found at [GSE212270](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212270) and [SRA PRJNA874734](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA874734&o=acc_s%3Aa).
 
