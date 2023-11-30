@@ -14,4 +14,4 @@ GSE212270 data contain:
 
 - Bulk RNA-seq data
   - GSE212270_counts.txt.gz containing featureCounts output of Ifnar1-/- versus WT bulk RNA-sequencing
-  - GSE212270_tmm_cpm_normalised.csv.gz containing TMM normalised counts per million values of edgeR processed Ifnar1-/- versus WT bulk RNA-sequencing
+  - GSE212270_tmm_cpm_normalised.csv.gz containing TMM-adjusted CPM normalised values of edgeR processed Ifnar1-/- versus WT bulk RNA-sequencing
